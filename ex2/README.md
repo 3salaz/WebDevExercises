@@ -5,5 +5,4 @@
 - Nav should have a link
 - Header should have a title heading.
 - Footer can have a copyright message.
-- Within your html do not focus on the look but rather make sure the content is displayed correctly.
-- We'll use css to style this content next.
+- We'll use css to style this content in you next exercise.
