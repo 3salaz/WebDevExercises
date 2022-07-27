@@ -8,11 +8,15 @@
 -  Link your new files to your index file.
     - ````<link rel="stylesheet" href="master.css">````
     - ````<script src=""></script>````
--  Use this syntax to create a new element within your body tag:
+-  Use this syntax to create a new element within your body tag
 
     ````
-    <div class="img-wrapper">
-    <img class="full-width" src="https://giphy.com/clips/southpark-season-8-south-park-episode-12-x1HgtorCI6tm5Eh6sf"></div>
+        <div class="img-wrapper">
+        <h1 id="header">hhd</h1>
+        <div class="full-screen">
+            <iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/x1HgtorCI6tm5Eh6sf/video" width="480"></iframe>
+        </div>
+    </div>
     ````  
 
 -  Now lets add the matching css!
@@ -37,12 +41,6 @@
     ````
 - And finally some js!
     ````
-    var img = document.querySelector('.img-wrapper');
-    img.addEventListener('click', function() {
-        img.style.width = '50%';
-        img.style.height = 'auto';
-    });
+    let header = document.getElementById('header');
+    header.innerHTML = 'Congrats! You have successfully created your webpage!';
     ````
-
-
-**Ex.2 | Semantic Tags**

@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-wrapper {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.full-width {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
